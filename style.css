@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;  
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.form-box{
+    width: 300px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.form-box h2 {
+    margin-bottom: 10px;
+}
+
+label, select, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.post {
+    background: green;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.listing-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.listing-item {
+    width: 200px;
+    padding: 10px;
+    background: red
+}
